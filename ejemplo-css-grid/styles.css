@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid div {
+    background-color: #636185;
+    padding: 30px;
+}
+
+.grid div:hover {
+    border: 1px solid red;
+}
+
+.element1 {
+    grid-column: 1/4;
+}
+
+.element2 {
+    grid-row: 2/4;
+}
