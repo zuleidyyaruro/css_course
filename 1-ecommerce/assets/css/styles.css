@@ -266,8 +266,26 @@ h1 {
     grid-column: 5/7;
 }
 
-/* footer */
+/* Footer */
 
 .site-footer {
-    border-top: 1px solid;
+    margin-top: 5rem;
+    border-top: 1px solid var(--clr-grey-8);
+    padding: 3rem;
 }
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu a {
+    padding: 5px;
+}
+
