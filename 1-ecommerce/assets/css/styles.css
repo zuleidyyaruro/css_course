@@ -266,7 +266,7 @@ h1 {
     grid-column: 5/7;
 }
 
-/* Footer */
+/** Footer **/
 
 .site-footer {
     margin-top: 5rem;
@@ -289,3 +289,19 @@ h1 {
     padding: 5px;
 }
 
+/** Nosotros **/
+
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 4rem;
+}
+
+.imagen img{
+    width: 500px;
+}
+
+.informacion-nosotros {
+    text-align: left;
+    line-height: 25px;
+}
